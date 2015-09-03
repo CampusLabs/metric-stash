@@ -1,5 +1,7 @@
 # metric-stash
 
+[![Clojars Project](http://clojars.org/orgsync/metric-stash/latest-version.svg)](http://clojars.org/orgsync/metric-stash)
+
 A simple library to emit metrics to a log file suitable for
 consumption by [logstash][logstash]. JSON-formatted metrics are
 written asynchronously and periodically flushed to disk.
