@@ -1,4 +1,4 @@
-(defproject metric-stash "0.1.0"
+(defproject orgsync/metric-stash "0.1.0"
   :description "Write application metrics to a JSON-formatted file log"
   :url "https://github.com/orgsync/metric-stash"
   :license {:name "Eclipse Public License"
