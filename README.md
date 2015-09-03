@@ -117,7 +117,7 @@ returns the body result. For example:
 A null metric writer is also included for testing:
 
 ```clj
-(def null-metrics (null-metric-writer))
+(def null-metrics (m/null-metric-writer))
 (m/mark null-metrics "server.start")
 ```
 
