@@ -16,7 +16,7 @@ emitted log file:
 (def metrics (m/json-file-metric-writer "my-application" "logs/metrics.log"))
 ```
 
-An additional options hash can be provided that supports the following
+An additional options map can be provided that supports the following
 keys:
 
 | Key              | Type    | Default | Description                     |
